@@ -1,0 +1,154 @@
+body,html{margin:0; padding:0; height:100%;}
+a{text-decoration: none;}
+p{text-decoration: none;}
+#wrap{margin:0; padding:0; width:100%; height:100%; overflow: hidden; }
+#header{width:100%; height:6%; background:rgb(237,175,102);box-sizing: border-box; padding-left:4.25%; padding-right:4.25%;  text-align: center; overflow: hidden;}
+
+.menu_icon{width:15%; text-align: left; line-height:42px; float:left;}
+.main_title{width:70%; text-align: center;line-height:42px;float:right;}
+.alarm_icon{width:15%; text-align: right;line-height:42px;float:right;}
+
+
+.menu_icon_img{width:22px; height:17px; }
+.main_title_img{width:104px; height:20px;}
+.alarm_icon_img{ width:17px; height:20px;}
+.display_none{display:none;}
+
+
+
+#container{width:100%; height:86%; background:rgb(244,244,244); box-sizing: border-box; padding-left:4.25%; padding-right:4.25%; padding-top:3%;}
+
+.main_content1{width:100%; height: 8%; background:white; box-sizing: border-box; padding-left:3%; padding-right:3%; margin-bottom:10px; }
+.main_content1 span{line-height:40px; color:black; font-size:12px;}
+.input_name{float:right; font-size:15px; margin-top:10px; text-align: right; outline:none; border:rgba(0,0,0,0)}
+
+
+.main_content2_title{width:100%; height: 35px; border-bottom:0.5px solid silver;}
+.main_content2_title span{line-height:40px; color:black; font-size:12px;}
+
+.main_content2{width:100%; height:225px;box-sizing: border-box;background:white; padding-left:3%; padding-right:3%}
+.input_question{width:100%; height:180px; border:rgba(0,0,0,0); outline: none; margin-top:5px;}
+
+.input_question::placeholder{color:silver; letter-spacing: -0.6px;}
+
+.question_send_btn{width:100%; height:35px; background:rgb(254,150,15); text-align: center;}
+.question_send_text{width:35px; height:12.5px; margin-top:10px}
+
+
+
+#footer{width:100%; height:8%; overflow: hidden; background:rgb(254,150,15); position:fixed; bottom:0; left:0;}
+
+#footer ul li{list-style:none; float:left; width:25%; line-height:1; height:100%;text-align: center; margin:0 auto;}
+#footer ul{overflow: hidden; width:100%; height:100%; margin:0; padding:0}
+
+.fb_1_img{width:24px; height:22px; margin-top:9px;}
+.fb_1_text{width:8px; height:11px;}
+.fb_2_img{width:33px; height:18px; margin-top:9px;}
+.fb_2_text{width:44px; height:12px; margin-top:6px; }
+.fb_3_img{width:33px; height:22px; margin-top:9px;}
+.fb_3_text{width:56px; height:12px; margin-top:2px;}
+.fb_4_img{width:24px; height:24px; margin-top:7px;}
+.fb_4_text{width:56px; height:11px; margin-top:2px;}
+
+
+
+
+
+
+
+
+
+
+
+.hidden_wrap{width:100%; height:100%; position:absolute; top:0; left:-100%; }
+.hidden_menu{width:0%; height:100%; float:left;background:rgb(249,249,249)}
+.hidden_menu_top{text-align: center; background-color: rgb(237,175,102); height:5.2%; box-sizing: border-box; padding-top:3%; border:0.5px solid silver;}
+.hidden_title{width:79px; height:21px;}
+
+.hidden_right{width:100%; height:100%; float:left;}
+
+.block{display:block}
+.opacity{opacity:0.5}
+
+.hidden_menu ul{background:white; margin:0; padding:0; border-top:0.5px solid rgba(221,221,221,0.6); overflow: hidden;}
+.hidden_menu li{width:100%; height:40px; line-height: 40px; box-sizing: border-box; padding-left:14px; padding-right:14px; overflow: hidden; float:left; border-bottom:0.5px solid rgba(221,221,221,0.6)}
+
+.icon_wrap{width:23px; height:40px; float:left; overflow: hidden; text-align: center; margin-right:15px;}
+.user_info_icon{width:13px; height:13px;  margin-top:13px; }
+.hidden_list_text{float:left;}
+.coupon_icon{width:21px; height:12px; margin-top:13px; margin-right:13px;}
+
+.hidden_menu_list1{margin-top:15px;}
+.hidden_menu_partion{width:100%; height:32px; line-height:32px; box-sizing: border-box; padding-left:14px; background:rgb(249,249,249)}
+.partion_img{width:24px; height:12px; margin-top:15px;}
+.virsion_text{float:right; color:silver}
+
+.notice_img{width:16px; height:15px;}
+.qna_img{width:14px; height:14px;}
+.review_img{width:20px; height:14px;}
+.event_img{width:16px; height:15px;}
+.changer_img{width:15px; height:16px;}
+.virsion_img{width:8px; height:16px;}
+
+input:focus {outline: none;}
+
+
+
+.registration_top{
+    width:100%;
+    height:35%;
+    float:left;
+    background:rgba(0,0,0,0.5)
+}
+.registration_left{
+    width:11%;
+    height:30%;
+    float:left;
+    background:rgba(0,0,0,0.5)
+}
+.registration_right{
+    width:11%;
+    height:30%;
+    float:left;
+    background:rgba(0,0,0,0.5)
+}
+.registration_bottom{
+    width:100%;
+    height:35%;
+    background:rgba(0,0,0,0.5);
+    float:left;
+}
+.registration_popup{
+    width:78%;
+    height:30%;
+    float:left;
+    background: rgba(0,0,0,0.5);
+    position:relative;
+}
+.regibox_top{
+    position:absolute;
+    width:44px;
+    height:45px;
+    border-radius: 100%;
+    background:white;
+    top:-15px;
+    left:50%;
+    margin-left:-22px;
+    text-align: center;
+    z-index: 999;
+}
+.top_vector{width:22px; height:23px; margin-top:8px;}
+
+.registration_wrap{width:100%; height:100%; position:fixed; top:0; left:0; overflow: hidden; margin:0 auto;}
+
+.registration_mainbox{width:100%; height:100%; background:white; text-align: center; border-radius: 10px; box-sizing: border-box; padding-top:10%; position:relative}
+
+.display_none{display:none;}
+
+.regibox_maintext{ font-size:18px; text-align: center; line-height:30px}
+
+.go_couponpage_btn{width:100%; height:25%; background:rgb(254,150,15); border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; text-align: center; position:absolute; bottom:0; box-sizing: border-box;}
+
+.go_coupon_text{width:163px; height:17.5px; margin-top:15px;}
+.arrow_icon{width:13px; height:13.5px; margin-top:15px;}
+

@@ -1,0 +1,118 @@
+body, html{margin:0; padding:0; width:100%; height:auto;}
+ul , li{margin:0; padding:0; list-style: none;}
+#wrap{margin:0; padding:0; width:100%; height:100%; overflow: hidden; }
+#header{width:100%; height:6%; background:rgb(237,175,102);box-sizing: border-box; padding-left:4.25%; padding-right:4.25%;  text-align: center; overflow: hidden;}
+
+.menu_icon{width:15%; text-align: left; line-height:42px; float:left;}
+.main_title{width:70%; text-align: center;line-height:42px;float:right;}
+.alarm_icon{width:15%; text-align: right;line-height:42px;float:right;}
+
+
+.menu_icon_img{width:22px; height:17px; }
+.main_title_img{width:59px; height:19px;}
+.alarm_icon_img{ width:17px; height:20px;}
+
+#container{width:100%; text-align: center; background:rgb(240,244,247)}
+
+.profile{width:100%; height:30%; box-sizing: border-box; padding-top:7%;padding-left:4.25%; padding-right:4.25%; background: white; }
+
+
+.profile_img_wrap{width:96px; height:96px; border-radius: 100%; background:rgb(241,198,148); margin:0 auto; text-align: center; position:relative;}
+.profile_img1{width:45px; height:46px; margin-top:10px;}
+.profile_img2{width:35px; height:10px; }
+
+.profile_img_3{width:27px; height:27px; border-radius: 100%; background:rgb(237,175,102); position:absolute; left:75%; top:73%;}
+.profile_img3{width:15px; height:12px; margin-top:7px;}
+
+.profile_text_wrap{width:78px; height:68px; text-align: center; margin:0 auto;}
+.nickname{margin-top:15%; margin-left:15px;}
+.nickname_text{width:40px; height:14px;}
+.nickname_right{width:14px; height:14px;}
+.introduce_text{width:64px; height:9px;}
+.profile_text2{overflow: hidden; margin-top:5px;}
+.chestnut{width:13px; height:14px; background:url(img/mandoo.png); background-size:100%; float:left; margin-right:3px;}
+.chestnut_num{float:left; margin-left:3px; color:red; font-size: 13px; margin-top:-2px;}
+
+.personal_information{width:100%; box-sizing: border-box;  margin-top:5%;}
+
+.introduce_list_wrap li{height:58px;padding-left:4.25%; padding-right:4.25%; border-bottom:0.5px solid silver;}
+
+.introduce_list_wrap{background-color: white; margin-top:10px;}
+.introduce_list_title{width:100%; overflow: hidden; box-sizing: border-box; padding-top:12px;}
+.self_intro{width:47px; height:12px; float:left;}
+
+.introduce_list_content{width:75%; float:left; box-sizing: border-box; padding-top:15px;}
+.self_intro_text{width:96px; height:9px; float:left;}
+.modify_btn{width:55px; height:17px; border-radius: 20px; border:0.5px solid crimson; text-align: center; float:right; margin-top:10px;}
+.modify_text{width:29px; height:8.5px; display: block; margin-left:12px; margin-top:5px;}
+
+.email_address{width:58px; height:12px; float:left;}
+.email_address_text{width:121px; height:8.5px; float:left;}
+
+.phone_number{width:58px; height:12px; float:left;}
+
+.accept_btn{width:55px; height:17px; border-radius: 20px; border:0.5px solid cornflowerblue; text-align: center; float:right; margin-top:-5px;}
+.accept_text{width:29px; height:8.5px; display: block; margin-left:12px; margin-top:5px;}
+
+.phone_number_text{width:65.5px; height:7px; float:left; margin-left:1px;}
+
+.remodel_btn{margin-top:15px; margin-right:2px;}
+.remodel_text{width:46px; height:10px; float:right;}
+
+.remodel_list_wrap li{height:37px; border-bottom:0.5px solid silver;padding-left:4.25%; padding-right:4.25%; text-align: left;}
+.remodel_list_wrap{margin-top:15px; background: white; box-sizing: border-box;}
+.remodel_pw{width:69px; height:11px; margin-top:13px;}
+.remodel_additional_info{width:69px; height:11px; margin-top:13px;}
+.logout_img{width:45px; height:11px; margin-top:13px;}
+.secession_img{width:45px; height:11px; margin-top:13px;}
+
+
+
+
+#footer{width:100%; height:8%; overflow: hidden; background:rgb(254,150,15); position:fixed; bottom:0; left:0;}
+
+#footer ul li{list-style:none; float:left; width:25%; line-height:1; height:100%;text-align: center; margin:0 auto;}
+#footer ul{overflow: hidden; width:100%; height:100%; margin:0; padding:0}
+
+.fb_1_img{width:24px; height:22px; margin-top:9px;}
+.fb_1_text{width:8px; height:11px;}
+.fb_2_img{width:33px; height:18px; margin-top:9px;}
+.fb_2_text{width:44px; height:12px; margin-top:6px; }
+.fb_3_img{width:33px; height:22px; margin-top:9px;}
+.fb_3_text{width:56px; height:12px; margin-top:2px;}
+.fb_4_img{width:24px; height:24px; margin-top:7px;}
+.fb_4_text{width:56px; height:11px; margin-top:2px;}
+
+
+
+
+.hidden_menu_box ul li{list-style:none;}
+
+.hidden_wrap{width:100%; height:100%; position:absolute; top:0; left:-100%; overflow: hidden;}
+.hidden_menu{width:50%; height:100%; float:left;background:rgb(249,249,249)}
+.hidden_menu_top{text-align: center; background-color: rgb(237,175,102); height:5.2%; box-sizing: border-box; padding-top:3%; border:0.5px solid silver;}
+.hidden_title{width:79px; height:21px;}
+
+.hidden_right{width:100%; height:100%; float:left;}
+
+.block{display:block}
+
+.hidden_menu ul{background:white; margin:0; padding:0; border-top:0.5px solid rgba(221,221,221,0.6); overflow: hidden;}
+.hidden_menu li{width:100%; height:40px; line-height: 40px; box-sizing: border-box; padding-left:14px; padding-right:14px; overflow: hidden; float:left; border-bottom:0.5px solid rgba(221,221,221,0.6)}
+
+.icon_wrap{width:23px; height:40px; float:left; overflow: hidden; text-align: center; margin-right:15px;}
+.user_info_icon{width:13px; height:13px;  margin-top:13px; }
+.hidden_list_text{float:left;}
+.coupon_icon{width:21px; height:12px; margin-top:13px; margin-right:13px;}
+
+.hidden_menu_list1{margin-top:15px;}
+.hidden_menu_partion{width:100%; height:32px; line-height:32px; box-sizing: border-box; padding-left:14px; background:rgb(249,249,249)}
+.partion_img{width:24px; height:12px; margin-top:15px;}
+.virsion_text{float:right; color:silver}
+
+.notice_img{width:16px; height:15px;}
+.qna_img{width:14px; height:14px;}
+.review_img{width:20px; height:14px;}
+.event_img{width:16px; height:15px;}
+.changer_img{width:15px; height:16px;}
+.virsion_img{width:8px; height:16px;}

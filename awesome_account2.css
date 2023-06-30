@@ -1,0 +1,253 @@
+body, html{margin:0; padding:0; width:100%; height:auto;}
+ul , li{margin:0; padding:0; list-style: none;}
+#wrap{margin:0; padding:0; width:100%; height:auto; overflow: hidden; }
+#header{width:100%; height:46.5px; background:rgb(237,175,102);box-sizing: border-box; padding-left:4.25%; padding-right:4.25%;  text-align: center; overflow: hidden;}
+
+.header_top_left{width:21.5px; height:16px; float:left; margin-top:15px;}
+.header_left{width:15%; float:left;}
+.header_center{width:70%; float:left; text-align: center;}
+.header_right{width:15%; float:left;}
+.header_title{width:74.5px; height:19px; margin-top:13px;}
+
+#container{box-sizing: border-box; padding-left:4.25%; padding-right:4.25%;}
+
+.display_none{display:none;}
+.block{display:block;}
+
+
+
+.profile{width:100%; height:30%; box-sizing: border-box; padding-top:7%;padding-left:4.25%; padding-right:4.25%; background: white; }
+
+
+.profile_img_wrap{width:96px; height:96px; border-radius: 100%; background:rgb(241,198,148); margin:0 auto; text-align: center; position:relative;}
+.profile_img1{width:45px; height:46px; margin-top:10px;}
+
+.profile_img_2{margin-top:-5px;}
+.profile_img2{width:68.5px; height:8px; }
+
+.profile_img_3{width:27px; height:27px; border-radius: 100%; background:rgb(237,175,102); position:absolute; left:75%; top:73%;}
+.profile_img3{width:15px; height:12px; margin-top:7px;}
+
+.profile_text_wrap{width:176.5px; height:50px; text-align: center; margin:0 auto; overflow: hidden;}
+
+.profile_img_text_icon{width:8.5px; height:13.5px; margin-top:15px; float:left;}
+.profile_img_text{width:163px; height:11.5px; margin-top:15px; margin-left:5px; float:left;}
+
+text{text-align: right;}
+
+
+.content_box1{overflow: hidden; height:530px;}
+.content_text1_img{width:86px; height:14.5px;}
+.content_subbox1{position:relative; width:100%; height:44px; box-sizing: border-box; padding-right:20px; margin-top:10px; background:rgb(249,249,249); padding-left:5px;}
+
+.input_text1{width:70%; float:right; height:40px; box-sizing: border-box; margin-top:0px; background:rgb(249,249,249); text-align: right; padding-left:5px; border:rgba(0,0,0,0)}
+.input_text1::placeholder{font-size: 12px; color:rgb(242,158,59)}
+
+.content_box1_orangetext{width:130.5px; height:12px; position:absolute; right:3%; top:40%;}
+
+.input_text_title{width:36px; height:14px; float:left; margin-top:15px; margin-left:10px;}
+.input_text_title2{width:10.5px; height:14px; float:left; margin-top:15px; margin-left:10px;}
+
+.essential_point1{width:4.5px; height:4.5px; float:left; margin-top:15px; margin-left:5px;}
+
+.select_text_left{width:42.5px; height:11.5px; float:left;}
+.select_text_right{width:8px; height:5px; float:left; margin-left:10px; margin-top:3px;}
+
+
+.input_title_weight{
+    width:38px; height:14px; float:left; margin-top:15px; margin-left:10px;
+}
+.input_title_address{
+    width:26px; height:14px; float:left; margin-top:15px; margin-left:10px;
+}
+
+.input_title_dream{
+    width:14px; height:14px; float:left; margin-top:15px; margin-left:10px;
+}
+
+.input_title_job_address{width:50px; height:14px; float:left; margin-top:15px; margin-left:10px;}
+
+.input_title_most_interest{width:67.5px; height:14px; float:left; margin-top:15px; margin-left:10px;}
+
+.input_title_preferd_food{width:53.5px; height:14px; float:left; margin-top:15px; margin-left:10px;}
+
+.input_title_evaluation_standard{width:76.5px; height:14px; float:left; margin-top:15px; margin-left:10px;}
+
+.input_title_future{width:133.5px; height:14px; float:left; margin-top:15px; margin-left:10px;}
+
+.select_weight{float:right; margin-top:17px;}
+
+
+.select_height{float:right; margin-top:17px;}
+.select_bloodtype{float:right; margin-top:17px;}
+.select_address{float:right; margin-top:17px;}
+.select_appearance{float:right; margin-top:17px;}
+.select_emotion{float:right; margin-top:17px;}
+.select_bodytype{float:right; margin-top:17px;}
+.select_attractive{float:right; margin-top:17px;}
+
+
+.select_preferd_food{float:right; margin-top:17px;}
+.select_most_interest{float:right; margin-top:17px;}
+.select_values{float:right; margin-top:17px;}
+.select_eval_standard{float:right; margin-top:17px;}
+
+
+
+
+
+
+
+
+
+
+.content_box2_title{overflow: hidden;}
+.content_box2_left_title{width:55px; height:14.5px; float:left;}
+.content_box2_small_title{width:176px; height:9px; float:left; margin-left:5px; margin-top:3px;}
+
+.content_subbox2{position:relative; width:100%; height:44px; box-sizing: border-box; padding-right:20px; margin-top:10px; background: rgb(249,249,249); padding-left:5px;}
+
+
+.content_box3{margin-top:20px;}
+
+.content_subbox_dream_text{
+    position:relative; width:100%; height:88px; box-sizing: border-box; padding-right:20px; margin-top:10px; background: rgb(249,249,249); padding-left:5px;
+}
+
+
+
+.input_dream_text{width:100%; float:left; height:50px; box-sizing: border-box; margin-top:0px; background: rgb(249,249,249); padding-left:5px; border:rgba(0,0,0,0)}
+.input_dream_text::placeholder{font-size:12px; color:rgb(242,158,59)}
+
+
+.input_text1{width:70%; float:right; height:40px; box-sizing: border-box; margin-top:5px; background:rgb(249,249,249); text-align: right; padding-left:5px; border:rgba(0,0,0,0)}
+.input_text1::placeholder{font-size: 12px; color:rgb(242,158,59)}
+
+
+#footer{box-sizing: border-box; width:100%; height:63px; padding-left:4.25%; padding-right:4.25%; margin-top:20px;}
+
+.account_send_btn{width:100%; height:48px; background: rgb(242,158,59); text-align: center; border-radius: 20px; }
+
+.account_send_text{width:135.5px; height:19.5px; margin-top:15px;}
+
+.input_dream_text{outline:none;}
+
+
+.hidden_wrap{width:100%; height:100%;position:fixed; top:0; left:0; overflow: hidden; margin:0 auto;}
+
+.hidden_wrap3{width:100%; height:100%;position:fixed; top:0; left:0; overflow: hidden; margin:0 auto;}
+
+.hidden_wrap_top{
+    width:100%;
+    height:15%;
+    float:left;
+    background:rgba(0,0,0,0.5);
+}
+
+.hidden_wrap_left{
+    width:9%;
+    height:67%;
+    float:left;
+    background:rgba(0,0,0,0.5);
+}
+
+.hidden_wrap_right{
+    width:9%;
+    height:67%;
+    float:left;
+    background:rgba(0,0,0,0.5);
+}
+.hidden_wrap_bottom{
+    width:100%;
+    height:18%;
+    float:left;
+    background:rgba(0,0,0,0.5);
+
+}
+
+.select_user_height{
+    width:82%;
+    height:67%;
+    float:left;
+    background: rgba(0,0,0,0.5);
+}
+.select_height_top{
+    width:100%; height:8%; text-align: center; font-size: 22px; box-sizing: border-box; padding-top:1%; color:white; background:rgb(237,175,102); border-top-right-radius: 10px;
+    border-top-left-radius:10px;
+}
+.select_height_top3{
+    width:100%; height:15%; text-align: center; font-size: 22px; box-sizing: border-box; padding-top:1%; color:white; background:rgb(237,175,102); border-top-right-radius: 10px;
+    border-top-left-radius:10px;
+}
+.select_height_top3_sub{
+    width:100%; text-align: center; font-size:18px; box-sizing: border-box; padding-top:1%; color:white; display: block;
+}
+.select_height_container{
+    width:100%; background:white; height:358px;
+}
+
+.select_height_container3{
+    width:100%; background:white; height:320px;
+}
+.select_height_container3 li{width:100%; height:48px; line-height: 50px; font-size:18px; border-bottom: 0.5px solid silver; box-sizing: border-box; padding-left:10px;}
+
+.select_btn{float:right; width:20px; height:20px; margin-right:15px; margin-top:15px;}
+.select_btn2{float:right; width:20px; height:20px; margin-right:15px; margin-top:15px;}
+.select_btn3{float:right; width:20px; height:20px; margin-right:15px; margin-top:15px;}
+.select_btn4{float:right; width:20px; height:20px; margin-right:15px; margin-top:15px;}
+.select_btn5{float:right; width:20px; height:20px; margin-right:15px; margin-top:15px;}
+.select_btn6{float:right; width:20px; height:20px; margin-right:15px; margin-top:15px;}
+
+.select_height_container li{width:100%; height:48px; line-height: 50px; font-size:18px; border-bottom: 0.5px solid silver; box-sizing: border-box; padding-left:10px;}
+
+
+
+.select_height_footer{width:100%; height:12%; text-align: center; font-size:22px; box-sizing: border-box; padding-top:3.5%;background:rgb(237,175,102); border-bottom-left-radius: 10px; border-bottom-right-radius:10px ; color:white }
+.select_height_footer3{width:100%; height:12%; text-align: center; font-size:22px; box-sizing: border-box; padding-top:3.5%;background:rgb(237,175,102); border-bottom-left-radius: 10px; border-bottom-right-radius:10px ; color:white }
+
+
+.height_selected{width:100%; float:right; height:30px; box-sizing: border-box; margin-top:-5px; background:rgba(0,0,0,0); text-align: right; padding-left:5px; border:rgba(0,0,0,0); margin-right:10px;}
+
+.weight_selected{width:100%; float:right; height:30px; box-sizing: border-box; margin-top:-5px; background:rgba(0,0,0,0); text-align: right; padding-left:5px; border:rgba(0,0,0,0); margin-right:10px;}
+
+
+.input_text1{width:70%; float:right; height:40px; box-sizing: border-box; margin-top:0px; background:rgb(249,249,249); text-align: right; padding-left:5px; border:rgba(0,0,0,0)}
+
+.bloodtype_selected{width:100%; float:right; height:30px; box-sizing: border-box; margin-top:-5px; background:rgba(0,0,0,0); text-align: right; padding-left:5px; border:rgba(0,0,0,0); margin-right:10px;}
+
+.address_selected{width:100%; float:right; height:30px; box-sizing: border-box; margin-top:-5px; background:rgba(0,0,0,0); text-align: right; padding-left:5px; border:rgba(0,0,0,0); margin-right:10px;}
+
+.appearance_selected{width:100%; float:right; height:30px; box-sizing: border-box; margin-top:-5px; background:rgba(0,0,0,0); text-align: right; padding-left:5px; border:rgba(0,0,0,0); margin-right:10px;}
+
+.emotion_selected{width:100%; float:right; height:30px; box-sizing: border-box; margin-top:-5px; background:rgba(0,0,0,0); text-align: right; padding-left:5px; border:rgba(0,0,0,0); margin-right:10px;}
+
+.bodytype_selected{width:100%; float:right; height:30px; box-sizing: border-box; margin-top:-5px; background:rgba(0,0,0,0); text-align: right; padding-left:5px; border:rgba(0,0,0,0); margin-right:10px;}
+
+.attractive_selected{width:100%; float:right; height:30px; box-sizing: border-box; margin-top:-5px; background:rgba(0,0,0,0); text-align: right; padding-left:5px; border:rgba(0,0,0,0); margin-right:10px;}
+
+
+
+
+
+.direct_input{background:rgba(0,0,0,0); box-sizing: border-box;  height:40px; line-height:40px; font-size:20px; border:rgba(0,0,0,0)}
+
+.select_btn_wrap{float:right;}
+
+
+.hidden_wrap2{width:100%; height:100%; position:fixed; top:0px; left:0px; margin:0 auto;}
+.hidden_top2{background:rgba(0,0,0,0.5); width:100%; height:50%;}
+.hidden_bottom2{width:100%; height:50%; background:white; position:absolute;bottom:0;}
+
+.close_btn{width:57px; height:57px; border-radius: 100%; background:rgb(237,175,102); text-align: center; left:50%; position: absolute; bottom: 55%; margin-left:-28.5px}
+.close_btn_icon{width:24px; height:24px; margin-top:17px;}
+
+.select_btn_blood{float:left; width:20px; height:20px; margin-right:15px; margin-top:5px;}
+.blood_type_text{font-size:20px;}
+
+.hidden_bottom2 ul{width:100%; height:80%; overflow: hidden; box-sizing: border-box; padding-left:4.25%; padding-right:4.25%; padding-top:5%;}
+.hidden_bottom2 li{width:50%; height:20%; float:left;}
+
+.blood_type_a{width:50%; }
+
+.ok_btn{background:rgb(242,158,59); width:100%; height:20%; text-align: center; position:absolute; bottom:0;}
+.ok_btn_text{width:35px; height:18.5px; margin-top:5%;}

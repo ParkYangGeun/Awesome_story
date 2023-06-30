@@ -1,0 +1,84 @@
+body,html{margin:0; padding:0; height:100%;}
+a{text-decoration: none;}
+#wrap{margin:0; padding:0; width:100%; height:100%; overflow: hidden; }
+#header{width:100%; height:6%; background:rgb(237,175,102);box-sizing: border-box; padding-left:4.25%; padding-right:4.25%;  text-align: center; overflow: hidden;}
+
+.menu_icon{width:15%; text-align: left; line-height:42px; float:left;}
+.main_title{width:70%; text-align: center;line-height:42px;float:right;}
+.alarm_icon{width:15%; text-align: right;line-height:42px;float:right;}
+
+
+.menu_icon_img{width:22px; height:17px; }
+.main_title_img{width:78px; height:20px;}
+.alarm_icon_img{ width:17px; height:20px;}
+
+
+#container{width:100%; height:95%; background:rgb(244,244,244); box-sizing: border-box; padding-left:4.25%; padding-right:4.25%; padding-top:5%;}
+
+.select_question_type{width:100%; overflow: hidden; background:white; height:35px; box-sizing: border-box; padding-top:5px; padding-left:10px; padding-right:15px; margin-bottom:15px;}
+
+.question_type_spread{width:9.5px; height:6px; float:right; margin-top:10px; }
+
+.select_question_type_text{font-size:14px; color:gray;}
+
+.question_content_wrap{width:100%; height:40%; background:white; box-sizing: border-box; padding-left:3%; padding-right:5%;}
+.question_email{width:100%; height:35px; border: rgba(0,0,0,0); border-bottom: 0.5px solid silver;}
+.question_email::placeholder{color:silver; }
+
+.question_content{width:100%; height:76%; resize: none; display: block; overflow: hidden; font-size:14px; line-height:20px;}
+.question_content::placeholder{font-size:12px; color:silver;}
+
+.question_send_btn{width:100%; height:40px; background-color: rgb(254,150,15); text-align: center; box-sizing: border-box; padding-top:10px;}
+
+.question_send_btn_text{width:35px; height:12.5px;}
+
+
+
+#footer{width:100%; height:8%; overflow: hidden; background:rgb(254,150,15); position:fixed; bottom:0; left:0;}
+
+#footer ul li{list-style:none; float:left; width:25%; line-height:1; height:100%;text-align: center; margin:0 auto;}
+#footer ul{overflow: hidden; width:100%; height:100%; margin:0; padding:0}
+
+.fb_1_img{width:24px; height:22px; margin-top:9px;}
+.fb_1_text{width:8px; height:11px;}
+.fb_2_img{width:33px; height:18px; margin-top:9px;}
+.fb_2_text{width:44px; height:12px; margin-top:6px; }
+.fb_3_img{width:33px; height:22px; margin-top:9px;}
+.fb_3_text{width:56px; height:12px; margin-top:2px;}
+.fb_4_img{width:24px; height:24px; margin-top:7px;}
+.fb_4_text{width:56px; height:11px; margin-top:2px;}
+
+
+
+
+.hidden_wrap{width:100%; height:100%; position:absolute; top:0; left:-100%;}
+.hidden_menu{width:0%; height:100%; float:left;background:rgb(249,249,249)}
+.hidden_menu_top{text-align: center; background-color: rgb(237,175,102); height:5.2%; box-sizing: border-box; padding-top:3%; border:0.5px solid silver;}
+.hidden_title{width:79px; height:21px;}
+
+.hidden_right{width:100%; height:100%; float:right;}
+
+.block{display:block}
+.opacity{opacity:0.5}
+
+.hidden_menu ul{background:white; margin:0; padding:0; border-top:0.5px solid rgba(221,221,221,0.6); overflow: hidden;}
+.hidden_menu li{width:100%; height:40px; line-height: 40px; box-sizing: border-box; padding-left:14px; padding-right:14px; overflow: hidden; float:left; border-bottom:0.5px solid rgba(221,221,221,0.6)}
+
+.icon_wrap{width:23px; height:40px; float:left; overflow: hidden; text-align: center; margin-right:15px;}
+.user_info_icon{width:13px; height:13px;  margin-top:13px; }
+.hidden_list_text{float:left;}
+.coupon_icon{width:21px; height:12px; margin-top:13px; margin-right:13px;}
+
+.hidden_menu_list1{margin-top:15px;}
+.hidden_menu_partion{width:100%; height:32px; line-height:32px; box-sizing: border-box; padding-left:14px; background:rgb(249,249,249)}
+.partion_img{width:24px; height:12px; margin-top:15px;}
+.virsion_text{float:right; color:silver}
+
+.notice_img{width:16px; height:15px;}
+.qna_img{width:14px; height:14px;}
+.review_img{width:20px; height:14px;}
+.event_img{width:16px; height:15px;}
+.changer_img{width:15px; height:16px;}
+.virsion_img{width:8px; height:16px;}
+
+input:focus {outline: none;}

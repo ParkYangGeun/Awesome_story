@@ -1,0 +1,109 @@
+body, html{margin:0; padding:0; width:100%; height:100%;}
+#wrap{ width:100%; height:100%;}
+#header{width:100%; height:13%; background:rgb(237,175,102); color:white;  position:fixed; left:0; top:0; display:block;}
+.header_top{overflow: hidden; float:left; width:100%; height:50%; line-height:42px;box-sizing: border-box; padding-left:5%; padding-right:5%;}
+.header_top_left{width:11px; height:100%; float:left; margin-top:12px;}
+.header_left{width:15%; float:left;}
+.header_middle{width:70%; float:left; text-align: center;}
+.header_right{width:15%; float:left; text-align: right;}
+.header_top_middle{width:105px; height:100%; margin-top:12px;}
+.header_top_right{width:17px; height:100%; margin-top:12px;}
+.header_bottom{width:100%;background:white; height:50%; border-bottom:0.5px solid rgb(237,175,102); box-sizing: border-box; padding-left:5%;  padding-top:2%;overflow: hidden;}
+ul, li{list-style:none; margin:0; padding:0;}
+
+
+
+.container_notice_wrap{width:27px; height:27px; border-radius: 100%; background:rgb(250,89,81); text-align: center; float:left;}
+.container_notice_icon{width:16px; height:14.5px; margin-top:6px;}
+.content_wrap{box-sizing: border-box; padding-left:5%; padding-right:5%; background:white;}
+.container_notice_spread_btn{float:right;width:5%; }
+.container_notice_spread{width:10px; height:6.5px;}
+.container_notice_textbox{width:83%; float:left; margin-top:-8px; margin-left:10px; overflow: hidden;}
+.text_title{color:rgb(254,150,15); font-size:12px;}
+.text_main{color:black; font-size:12px;}
+
+.text_sub{font-size:9px; color:black; letter-spacing: -0.7px; margin-top:-3px;}
+
+
+#container{margin-top:10%; width:100%; height:auto; overflow: scroll; background:rgb(234,234,234); box-sizing: border-box; padding-bottom:101px;}
+.container_top{width:336.5px; height:172.5px; background:rgb(245,213,176); border-radius: 20px; margin-top:50px;}
+
+.noimg_wrap{margin:0 auto; text-align: center; width:133.5px; height:100%; box-sizing: border-box; padding-top:10%;}
+.noimg_icon{width:61.5px; height:63px;}
+.noimg_text{width:133.5px; height:13.5px; margin-top:15px;}
+
+.content_textbox{margin-top:10px;margin-bottom:15px;}
+.main_content_title{font-weight:700}
+.main_content_iconwrap{float:right; width:21.5px; height:21.5px; border-radius: 100%; background:rgb(237,175,102); text-align: center;}
+.main_content_icon{width:11.5px; height:12px; margin-top:5px;}
+
+.introduce_text{font-size:11px; letter-spacing: -0.5px;}
+.introducer_info{font-size:9px;}
+.introduce_textbox li{ height:30px;}
+
+
+.who_answer{ font-size:14px; color:gray; letter-spacing: -0.4px;}
+.question{width:100px; float:left;}
+.when_answer{ font-size:14px; color:gray; letter-spacing: -0.4px;}
+.where_answer{ font-size:14px; color:gray; letter-spacing: -0.4px;}
+.what_answer{ font-size:14px; color:gray; letter-spacing: -0.4px;}
+.how_answer{ font-size:14px; color:gray; letter-spacing: -0.4px;}
+.why_answer{ font-size:14px; color:gray; letter-spacing: -0.4px;}
+
+.chatting_box{width:100%; background:white; box-sizing: border-box; padding-left:5%; padding-right:5%; padding-top:3%;}
+.chatting_wrap{width:100%; height:75px; margin-top:10px;}
+.chat_user_img_wrap{border-radius: 100%; width:38px; text-align: center; height:38px; float:left; background:rgb(245,213,176);}
+.chat_content_wrap{float:left; margin-left:10px;}
+.user_id{font-size:14px; margin-bottom:10px;}
+.chat_content{font-size:14px;box-sizing: border-box; padding-left:15px; padding-right:15px; line-height:30px;}
+.chat_box{background:rgb(229,229,229); border-radius: 10px; height:35px; display:inline-block}
+.chat_time{font-size:12px;}
+.chat_user_img{width:20px; height:20px; margin-top:9px}
+
+
+
+#footer{width:100%; height:15%; overflow: hidden; background:rgb(254,150,15); position:fixed; bottom:0; left:0; padding:0; margin:0;}
+
+.registration_chat{float:left; width:5%; height:100%; color:white; font-size:14px; text-align: center; padding-right:0px; margin:0; padding:0;}
+.registration_chat_text{width:21px; height:10.5px; margin-top:10px; margin-left:7px;}
+
+
+#footer ul li{list-style:none; float:left; width:25%; line-height:1; height:100%;text-align: center; margin:0 auto;}
+#footer ul{overflow: hidden; width:100%; height:65%; margin:0; padding:0}
+.footer_chat_bar{width:100%; height:35%; overflow: hidden; border-top:0.5px solid silver;padding:0; }
+.input_chat{float:left; width:90%; height:100%; box-sizing: border-box; padding-left:3%; overflow: hidden; background-color: rgb(250,250,250); font-size:14px;border:rgba(0,0,0,0)}
+
+.fb_1_img{width:24px; height:22px; margin-top:9px;}
+.fb_1_text{width:8px; height:11px;}
+.fb_2_img{width:33px; height:18px; margin-top:9px;}
+.fb_2_text{width:44px; height:12px; margin-top:6px; }
+.fb_3_img{width:33px; height:22px; margin-top:9px;}
+.fb_3_text{width:56px; height:12px; margin-top:2px;}
+.fb_4_img{width:24px; height:24px; margin-top:7px;}
+.fb_4_text{width:56px; height:11px; margin-top:2px;}
+
+.hidden_middle_wrap{width:100%; overflow: hidden; height:25%;}
+.display_none{display:none;}
+.hidden_wrap{width:100%; height:100%; position:fixed; left:0; top:0; background:rgba(0,0,0,0.6)}
+
+.hidden_top{width:100%; height:50%; position:relative}
+.hidden_left{width:5%; height:100%;float:left;}
+.hidden_content{width:90%; height:100%; float:left; background-color: white; border-radius: 20px;}
+.hidden_right{width:5%; height:100%; float:left;}
+.hidden_bottom{width:100%; height:25%}
+.hidden_content_top{width:100%; background:rgb(237,175,102); color:white; text-align: center; height:30%; border-top-right-radius: 20px; border-top-left-radius: 20px; font-size:22px; box-sizing: border-box; padding-top:8px;}
+.writer_profile_wrap{margin:0 auto; width:122px; height:122px; border-radius: 100%; background:rgb(245,213,176); position: absolute; bottom:10%; left:50%; margin-left:-61px;}
+.writer_noimg_box{margin:0 auto; width:60.5px; height:100%;}
+.writer_noimg_icon{width:57px; height:58px; margin-top:15px;}
+.writer_noimg_text{width:60.5px; height:20px; margin-top:5px;}
+
+.peanut_grade{width:20%; height:100%; float:left; text-align: center;}
+.peanut_grade_box{width:100%; height:40%; box-sizing: border-box; padding-top:15px;}
+.give_grade1{width:45.5px; height:46px;}
+.give_grade2{width:45.5px; height:46px;}
+.give_grade3{width:45.5px; height:46px;}
+.give_grade4{width:45.5px; height:46px;}
+.give_grade5{width:45.5px; height:46px;}
+.hidden_content_bottom{width:50%; height:20%; border-radius: 20px; border:0.5px solid silver; margin:0 auto; text-align: center; box-sizing: border-box; padding-top:5px;}
+.hidden_content_bottom_text{color:rgb(237,175,102);}
+.user_profile_icon{width:12.5px; height:11.5px;}
